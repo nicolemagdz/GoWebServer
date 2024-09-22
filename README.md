@@ -10,7 +10,7 @@ This project is a Go Web Server utilizing the Go `net/http` and `embed` framewor
 The web server utilizes multiple API's, including `hello-world`, `hello-world-json`,
 and `syllabus` with CRUD operations
 
-## CREDITS:
+## CREDITS
 `syllabus.json` file contents - Eric Pogue
 
 `apiHelpHandler()` in `gws.go` format/design - ChatGPT
