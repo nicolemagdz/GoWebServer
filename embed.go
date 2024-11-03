@@ -3,7 +3,6 @@ package main
 import (
 	"embed"
 	"net/http"
-	"fmt"
 )
 
 //go:embed syllabus.json
@@ -17,5 +16,4 @@ func serveEmbeddedJSON(w http.ResponseWriter, r *http.Request) {
 	}
 	w.Header().Set("Content-Type", "application/json")
 	w.Write(data)
-	fmt.Fprintln(w, `<br><a href="/help">Back to Help</a>`)
 }

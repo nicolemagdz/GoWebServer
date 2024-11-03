@@ -32,20 +32,16 @@ func serveSyllabus(w http.ResponseWriter) {
 	}
 	w.Header().Set("Content-Type", "application/json")
 	w.Write(data)
-	fmt.Fprintln(w, `<br><a href="/help">Back to Help</a>`)
 }
 
 func deleteSyllabus(w http.ResponseWriter) {
 	fmt.Fprintln(w, "deleted - stubbed")
-	fmt.Fprintln(w, `<br><a href="/help">Back to Help</a>`)
 }
 
 func createSyllabus(w http.ResponseWriter) {
 	fmt.Fprintln(w, "create-stubbed")
-	fmt.Fprintln(w, `<br><a href="/help">Back to Help</a>`)
 }
 
 func updateSyllabus(w http.ResponseWriter) {
 	fmt.Fprintln(w, "update-stubbed")
-	fmt.Fprintln(w, `<br><a href="/help">Back to Help</a>`)
 }
